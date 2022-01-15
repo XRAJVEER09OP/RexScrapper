@@ -41,6 +41,7 @@ def banner():
       '██╔══██╗██╔══██║██   ██║',
       '██║  ██║██║  ██║╚█████╔╝'.
       '╚═╝  ╚═╝╚═╝  ╚═╝ ╚════╝ ',
+                        
     ]
     for char in b:
         print(f'{random.choice(colors)}{char}{rs}')
